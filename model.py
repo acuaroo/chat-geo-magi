@@ -4,12 +4,10 @@ from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, \
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.vector_stores.chroma import ChromaVectorStore
 from llama_index.llms.ollama import Ollama
-from llama_index.core.agent import ReActAgent
 
 import chromadb
 import os
 import prompts
-import ast
 
 from printer import cprint
 from apis.noaa_apis import magnetic_declination, magnetic_inclination, total_intensity

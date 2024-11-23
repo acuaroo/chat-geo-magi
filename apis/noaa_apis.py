@@ -1,7 +1,6 @@
-from datetime import datetime, date
+from datetime import date
 from dateutil.parser import parse
 import requests
-import numpy as np 
 
 url = "https://www.ngdc.noaa.gov/geomag-web/calculators/calculateIgrfwmm"
 
